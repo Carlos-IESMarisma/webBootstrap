@@ -1,0 +1,80 @@
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background: linear-gradient(to right, #1e7e34, #28a745);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #28a745 !important; /* verde fútbol */
+}
+
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+
+h1, h2, h3 {
+  color: #1e7e34;
+  font-weight: bold;
+}
+
+.table {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #d4edda;
+  transition: 0.3s;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+img {
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .carousel img {
+    height: 250px;
+  }
+}
